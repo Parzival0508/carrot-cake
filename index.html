@@ -119,6 +119,27 @@
             left: 0;
             border-radius: 10px;
         }
+
+        /* Button Styling */
+        .birthday-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            background-color: #1e3a8a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .birthday-button:hover {
+            background-color: #0a58ca;
+        }
+
     </style>
 </head>
 <body>
@@ -139,6 +160,9 @@
     </div>
 
     <div class="message">Maligayang Kaarawan! Wishing you success and happiness! 🎂</div>
+
+    <!-- Button Link -->
+    <a href="https://youtu.be/dQw4w9WgXcQ?si=7LraHo5VbtrOvTzO" class="birthday-button">Click Here</a>
 
     <script>
         document.querySelectorAll(".flame").forEach(flame => {
